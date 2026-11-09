@@ -1,0 +1,9 @@
+Tiny KWS Noise Calibration
+
+The MFCC front end and quantization workflow adapt the MLPerf Tiny keyword
+spotting implementation by MLCommons and upstream contributors. See the
+upstream project at https://github.com/mlcommons/tiny and its Apache 2.0
+license at commit 4addd0fa08d216e20637637874e084895f289da4.
+
+The benchmark checkpoint and audio datasets are fetched from their respective
+upstream sources. See THIRD_PARTY.md for attribution and license information.

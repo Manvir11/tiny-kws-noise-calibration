@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the project and its upstream sources."
+title: "Tiny Keyword Spotting Under Noise"
+type: software
+authors:
+  - name: "Tiny KWS Noise Calibration contributors"
+license: Apache-2.0
+keywords:
+  - keyword spotting
+  - post-training quantization
+  - calibration
+  - environmental noise
+  - reproducibility
