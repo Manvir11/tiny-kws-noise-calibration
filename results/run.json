@@ -1,0 +1,1809 @@
+{
+  "protocol_sha256": "24e4e02f6190a1bb4a00f7e84ee27f3b0620ac6f45fcf6c5dafeb27e78b2a820",
+  "upstream_commit": "4addd0fa08d216e20637637874e084895f289da4",
+  "python": "3.11.15",
+  "tensorflow": "2.16.2",
+  "tf_keras": "2.16.0",
+  "numpy": "1.26.4",
+  "architecture": "arm64",
+  "source_sha256": {
+    "saved_model.pb": "80665dd19eeb03d1152fdc098b5635261731b23478d09f6ff2166da799f98138",
+    "variables/variables.data-00000-of-00001": "5ebfddd34e85a2d35e87e27a8a803353534019bb460907b16db5fa72d757e8c5",
+    "variables/variables.index": "3f21dd9ea6736e20e70c5ed2f40ed9d8a7d12b98316ac0e4ab8f4eb7e303d738"
+  },
+  "noise_sha256": {
+    "DKITCHEN": "94eda18f9461348d1d070ca69d001e7fa9e51604731509026b4905d2e321561d",
+    "OOFFICE": "a831879b26e15732ed511a8d3bf72e23aa1689383aac6c5ba76bcaaa528bc2f2",
+    "TCAR": "ffe4cac12ed78705a52fce5d14f17a4ee838c6f5922446fc66258841323d4a59",
+    "PCAFETER": "854dd0e5ef334a66abdd02d6d2b3e9d01b685df033d0acd1cd06e471c062550b",
+    "STRAFFIC": "8fa49dcf3996af655a3ecef8d06f0d9ef217c35410e3adce3d461da797987dbb",
+    "TMETRO": "63af2dc9ca2d83a83d2fb4e89db41948cb58b91fdafeda7137a651643df78fc4",
+    "NRIVER": "5ebb169c264b60337b0d8366aee9ad93adab3689049f236108282a652f40bd6d"
+  },
+  "speech_manifest_sha256": "089ba46f19b61083ddb21bffe9bb93330ea39a2c6c8a5cef6be99feb64209035",
+  "started_at_utc": "2026-11-09T15:23:45.561048+00:00",
+  "test_speech_clips": 2200,
+  "test_feature_inputs": 29000,
+  "calibration_speakers": 1074,
+  "test_speakers": 241,
+  "overlapping_speakers": 0,
+  "float_parity": {
+    "clips": 29,
+    "max_abs_score_error": 2.384185791015625e-07,
+    "argmax_disagreements": 0,
+    "allclose": true
+  },
+  "models": {
+    "float": {
+      "bytes": 99340,
+      "sha256": "84fea45d007df88ce9e8bf1a59ed197a18bd683f9c51a327a8f17c4a0b5fdd42",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "float32",
+      "output_dtype": "float32",
+      "input_quantization": [
+        0.0,
+        0
+      ],
+      "output_quantization": [
+        0.0,
+        0
+      ],
+      "input_encoding": "float32",
+      "tensor_dtype_counts": {
+        "float32": 35,
+        "int32": 1
+      }
+    },
+    "draw_0_mixture_0": {
+      "bytes": 47832,
+      "sha256": "dc36627a4444745077be907d76eba87906a2356cc8dfe143e380d9292647cbbe",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5972026586532593,
+        79
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_0_mixture_50": {
+      "bytes": 47832,
+      "sha256": "2196eb5405519fecf98ab3171f56ad9ed38b252919b10fc740e73c8f82bac4d9",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5939128398895264,
+        80
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_0_mixture_100": {
+      "bytes": 47832,
+      "sha256": "9a97bb37d4ff66b391ed33b4d7ede2c0f61aa7551b7bbbcb9699a7c9798ef134",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.2684924602508545,
+        23
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_1_mixture_0": {
+      "bytes": 47832,
+      "sha256": "11b4388f5f97263d1b596e747f12e3d9de14ff3b7c2e1e5296d8068d52fd7f78",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.589759111404419,
+        82
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_1_mixture_50": {
+      "bytes": 47832,
+      "sha256": "a3c418ac11b64e073d97bd4e80c2d26b17ec82642f4254516428668d5eaa75af",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.589759111404419,
+        82
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_1_mixture_100": {
+      "bytes": 47832,
+      "sha256": "ddd0ed3262b6b62f80286922ab0485903ea8b296ee62d08078c8bfe686b05cb9",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.2560911476612091,
+        27
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_2_mixture_0": {
+      "bytes": 47832,
+      "sha256": "87d6d7757faf55f6db7264a22bbcd6d50432411523014d60ed9346224cd44747",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5832626223564148,
+        84
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_2_mixture_50": {
+      "bytes": 47832,
+      "sha256": "9b15103a44c439690347982df4db9853cb05bab51fd14da89c71e19908ccfd54",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5798888802528381,
+        85
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_2_mixture_100": {
+      "bytes": 47832,
+      "sha256": "33a8630f1f48973b5886d8846e0a1699b6c8c37361ce484541a25d1f449f488a",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.23655037581920624,
+        24
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_3_mixture_0": {
+      "bytes": 47832,
+      "sha256": "e4f874b47bb19675ad6401a959d7ab772c248fb76ccb25fd729b2b98f1a5d9ad",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5811631679534912,
+        85
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_3_mixture_50": {
+      "bytes": 47832,
+      "sha256": "0ec2619407786aff66ecd4d9c5d9b146797640cdbdc0fdf4e0eabe4e20e01827",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5811631679534912,
+        85
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_3_mixture_100": {
+      "bytes": 47832,
+      "sha256": "c9575237e1502bb3767faf275bfcadb0a88af91772e18c0aa3944da8dc274041",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.2339124083518982,
+        21
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_4_mixture_0": {
+      "bytes": 47832,
+      "sha256": "824c7b33c4473324890b363869e33f0ede0182d36a782a4477a9074369427257",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5877504348754883,
+        82
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_4_mixture_50": {
+      "bytes": 47832,
+      "sha256": "43f999492fa9cd7eb031be7fcb868553266d9bd28f27336b98194d8271822807",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5872451663017273,
+        82
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_4_mixture_100": {
+      "bytes": 47832,
+      "sha256": "d52046e996e1cdaa2f84f1ff49f287c252a873293caff931255e986145fff61e",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.2585228681564331,
+        26
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_5_mixture_0": {
+      "bytes": 47832,
+      "sha256": "5f5e635396a7edb73848bae44e2ee0811e074d54ba70879800cfdd1fef0e9456",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5862898230552673,
+        83
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_5_mixture_50": {
+      "bytes": 47832,
+      "sha256": "bd649da534b3369269a9e36cb97046e385465e5586bd26333b325938d6fdc2a5",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5860042572021484,
+        83
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_5_mixture_100": {
+      "bytes": 47832,
+      "sha256": "52fe632071a6d8bda3abbf2ccdffbf4c9e9407576fa9b48e61e2ab9cbfb74d25",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.246738001704216,
+        22
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_6_mixture_0": {
+      "bytes": 47832,
+      "sha256": "d9f22dc5401138246e414837e7fa16854967120b391f79412d7d479c98085dbe",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5796256065368652,
+        85
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_6_mixture_50": {
+      "bytes": 47832,
+      "sha256": "0d57b3824931b8088f404cd62cd26f4fbbefb68c63e99e6e764a114c9f53c4b6",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5817536115646362,
+        84
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_6_mixture_100": {
+      "bytes": 47832,
+      "sha256": "3dd4b280e9130a252061390d00ca068abb70b795318b6305180240dcf032b389",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.2527361214160919,
+        29
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_7_mixture_0": {
+      "bytes": 47832,
+      "sha256": "46d207fd533a483454a60ecd637f3c8b268dfc685b5a2d3e0d2eec3ad1c47388",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.589759111404419,
+        82
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_7_mixture_50": {
+      "bytes": 47832,
+      "sha256": "39afdc65b355cf2ede2eedfc25ffbffccafdee22d24a002c96312a26740d0e48",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5851969122886658,
+        83
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_7_mixture_100": {
+      "bytes": 47832,
+      "sha256": "bddc06cf1d3968ef8c9cbaefc5385114a11982448cb7ca3251d035376dd9b27b",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.23855923116207123,
+        19
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_8_mixture_0": {
+      "bytes": 47832,
+      "sha256": "d82a3143793d4309511284523ef756d4718e4737bf70339fce7b3c8cd2a7c245",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5734109282493591,
+        87
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_8_mixture_50": {
+      "bytes": 47832,
+      "sha256": "9ec000f7b1d55c7eb29de6075263571fb74b9eba3512d89a9ce62656b257c1fe",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5734546780586243,
+        87
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_8_mixture_100": {
+      "bytes": 47832,
+      "sha256": "be05c54e571b3f7b47c50fb29222e41ae661bff9bdbfecdd27f1b8235a17d1cb",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.23278799653053284,
+        30
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_9_mixture_0": {
+      "bytes": 47832,
+      "sha256": "cdd66a14b0e876ac9a3a897b2e9a102fe8891cf2891ea4772fc82e43f31c2e74",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5814462900161743,
+        85
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_9_mixture_50": {
+      "bytes": 47832,
+      "sha256": "9dfe64c7939016e9046b2c120ec6b5802564df70deb638374b0ea90fb879a84a",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5814462900161743,
+        85
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_9_mixture_100": {
+      "bytes": 47832,
+      "sha256": "1fdef57b42117dcb832df81cfe04fee6b43ce878bc34f257fc7536b28b978b5c",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.23754164576530457,
+        27
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_10_mixture_0": {
+      "bytes": 47832,
+      "sha256": "510733c13cada5e4f583b409c5956698841c25decb24bdce142df7ca5d274d7a",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5800958275794983,
+        85
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_10_mixture_50": {
+      "bytes": 47832,
+      "sha256": "11127c3067b859752d1d22572814fbaefcf6cdc2bc473c4412f8cd25728d572f",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5756546258926392,
+        87
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_10_mixture_100": {
+      "bytes": 47832,
+      "sha256": "fe90c7844b6e7a26737bd6edfbf52b8f3299f3755df7abed408d9879c5f59b79",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.22723636031150818,
+        25
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_11_mixture_0": {
+      "bytes": 47832,
+      "sha256": "3e32565cead825a97d4ef5e29cb8293cab71d1a48045b3322d0fbd3bfcb3acc4",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.6231750249862671,
+        70
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_11_mixture_50": {
+      "bytes": 47832,
+      "sha256": "35522fd495a0bd5975ba34d536a96a7d854dfb178b2ef5ee4280748c7e6b8ff0",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.6231750249862671,
+        70
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_11_mixture_100": {
+      "bytes": 47832,
+      "sha256": "89f2b2bf40a6b70da2d93253fb5cd18488d4fc27ef935b4c79496362368533af",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.2826962471008301,
+        28
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_12_mixture_0": {
+      "bytes": 47832,
+      "sha256": "7904eb86a74465bfac9cde691cbf87bab2c8a6cd24334d5ddf8fb05347c7fc32",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5872202515602112,
+        82
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_12_mixture_50": {
+      "bytes": 47832,
+      "sha256": "d50329de7fc3241c37af6b1a74c317fa0f90b73e07e61216f1dfd6e0f0d6dd74",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5854582786560059,
+        83
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_12_mixture_100": {
+      "bytes": 47832,
+      "sha256": "8c56e2395933edcb6d96c49acbb3ac8b74ed06bf9b468645fd637a324df86c11",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.24124713242053986,
+        20
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_13_mixture_0": {
+      "bytes": 47832,
+      "sha256": "381dc241e475f9baeb891ca810c0667aadf4b1bdfb14413f444aedea4d99098f",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5755388736724854,
+        87
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_13_mixture_50": {
+      "bytes": 47832,
+      "sha256": "14bd815dfc432471bff250358567c98044b50c2de87b92fc695b0f394fd73189",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5754446983337402,
+        87
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_13_mixture_100": {
+      "bytes": 47832,
+      "sha256": "910c934316747ed8754af4fd210072d66f9c766c90cec48d7218649e35adacbb",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.2450295239686966,
+        32
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_14_mixture_0": {
+      "bytes": 47832,
+      "sha256": "0e4df4138d0c01e1e862a5db609c7c6c4a760bde899a3988a6ecb06269f8f1da",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5826255083084106,
+        84
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_14_mixture_50": {
+      "bytes": 47832,
+      "sha256": "7dfbeab6ae2e016096a092e6c78a2b6325a2f5ed629e6da1f4e3bd78811ae4c8",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5826255083084106,
+        84
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_14_mixture_100": {
+      "bytes": 47832,
+      "sha256": "e2f4c2aee7359d1a2e53c6207bb7c70a2b6dfa7d723826ef56fb80fb221751e8",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.24470078945159912,
+        29
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_15_mixture_0": {
+      "bytes": 47832,
+      "sha256": "24f47c6ca6d1ef9aea3a2c908a00e5d49b23c6b3d8a604617ff18ce02a308537",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5715884566307068,
+        88
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_15_mixture_50": {
+      "bytes": 47832,
+      "sha256": "e4f7c9acf4307f35b26d94ac49155f33ca5ac0a85d51725ff99577779f768589",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5715884566307068,
+        88
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_15_mixture_100": {
+      "bytes": 47832,
+      "sha256": "656220cd96755a4edf841fbeca53d931f4430f7cea010d30d30815be853d4834",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.2384861260652542,
+        32
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_16_mixture_0": {
+      "bytes": 47832,
+      "sha256": "1e45b3c62f810775027c8f25f0f44cffb9f12739d93d23b9823ed80651e6a9f2",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5789684653282166,
+        85
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_16_mixture_50": {
+      "bytes": 47832,
+      "sha256": "89190f3f1ee26ffb832ffbe0074cd8b6ac5560b7dbd0298107a90fd50e8e1326",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5789684653282166,
+        85
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_16_mixture_100": {
+      "bytes": 47832,
+      "sha256": "ee21f3171faf2996b0dc2ad99f9649beef1be5dfc44a571c6f859f063145ce53",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.2353723794221878,
+        24
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_17_mixture_0": {
+      "bytes": 47832,
+      "sha256": "fc23df431803f622ac6027b4a077a67a90b315b0b97eacd8954a9d3d9e6d36d5",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5766530632972717,
+        86
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_17_mixture_50": {
+      "bytes": 47832,
+      "sha256": "515e0acab4e00a3d67fef7571b10d2ec740679d12a8ffd90750816320e7d067e",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5766530632972717,
+        86
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_17_mixture_100": {
+      "bytes": 47832,
+      "sha256": "658a9882a577291dbe959b29fd85859283fa4fce99d4a975ebcfaa56ef4a06e5",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.2374369353055954,
+        28
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_18_mixture_0": {
+      "bytes": 47832,
+      "sha256": "89496dd132edf2a41c070325b3b4e7a37d227ee186aa4397d08dd1e1fe4ccfb9",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5959181785583496,
+        79
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_18_mixture_50": {
+      "bytes": 47832,
+      "sha256": "1fa182641ae1cb148e05a178cc0f809f74fb195ae05796f236d0f8814b2dba73",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5871832370758057,
+        82
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_18_mixture_100": {
+      "bytes": 47832,
+      "sha256": "f7baf8bcc189baa7ba6b687b9d59ec8353f2fba3b65b436d28be965e662eb7a9",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.27461951971054077,
+        32
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_19_mixture_0": {
+      "bytes": 47832,
+      "sha256": "8315684febe87c899b1bc474437920155d17d4d521b786d4ddd24e0e5f505c1d",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5904645323753357,
+        81
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_19_mixture_50": {
+      "bytes": 47832,
+      "sha256": "81b1a8149a5fb25b3e613762ba1b82382bfc71a3d3bc52fb1f661051069e7df9",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.5856505036354065,
+        83
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    },
+    "draw_19_mixture_100": {
+      "bytes": 47832,
+      "sha256": "f4d4cf4c53bffe0ea7034e011292a0fbb70545b013c96590bc4938bf56d25ac5",
+      "input_shape": [
+        1,
+        49,
+        10,
+        1
+      ],
+      "output_shape": [
+        1,
+        12
+      ],
+      "input_dtype": "int8",
+      "output_dtype": "int8",
+      "input_quantization": [
+        0.27898961305618286,
+        35
+      ],
+      "output_quantization": [
+        0.00390625,
+        -128
+      ],
+      "input_encoding": "nearest-even rounding and saturation",
+      "tensor_dtype_counts": {
+        "int8": 25,
+        "int32": 11
+      }
+    }
+  },
+  "predictions_sha256": "6fac58f67228a62dbcf394c744986f2c5e66f5f0408829829ee1c021f96e47c9",
+  "elapsed_seconds": 149.7671259578783
+}

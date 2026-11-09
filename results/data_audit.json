@@ -1,0 +1,190 @@
+{
+  "protocol_lock": {
+    "sha256": "24e4e02f6190a1bb4a00f7e84ee27f3b0620ac6f45fcf6c5dafeb27e78b2a820",
+    "locked_at_utc": "2026-11-09T15:18:54.248944+00:00"
+  },
+  "sources": {
+    "Speech Commands v0.02": {
+      "paper": "https://arxiv.org/abs/1804.03209",
+      "license": "CC BY 4.0",
+      "checksums": "https://github.com/tensorflow/datasets/blob/master/tensorflow_datasets/datasets/speech_commands/checksums.tsv"
+    },
+    "DEMAND": {
+      "record": "https://zenodo.org/records/1227121",
+      "checksums": "https://zenodo.org/api/records/1227121",
+      "license": "The creators\u2019 description specifies CC BY-SA 3.0 Unported for audio. Zenodo\u2019s structured license field says CC BY 4.0."
+    }
+  },
+  "source_archives": {
+    "speech_commands_v0.02.tar.gz": {
+      "url": "https://storage.googleapis.com/download.tensorflow.org/data/speech_commands_v0.02.tar.gz",
+      "bytes": 2428923189,
+      "checksum": "sha256:af14739ee7dc311471de98f5f9d2c9191b18aedfe957f4a6ff791c709868ff58"
+    },
+    "DKITCHEN_16k.zip": {
+      "url": "https://zenodo.org/records/1227121/files/DKITCHEN_16k.zip?download=1",
+      "bytes": 110501049,
+      "checksum": "md5:7ffbf52d7f4699f96927846103dc8788"
+    },
+    "OOFFICE_16k.zip": {
+      "url": "https://zenodo.org/records/1227121/files/OOFFICE_16k.zip?download=1",
+      "bytes": 88995191,
+      "checksum": "md5:7b61cc2d182d5a654cb9c3101ddd4041"
+    },
+    "TCAR_16k.zip": {
+      "url": "https://zenodo.org/records/1227121/files/TCAR_16k.zip?download=1",
+      "bytes": 130045975,
+      "checksum": "md5:4d930012796bd298932245a26189f973"
+    },
+    "PCAFETER_16k.zip": {
+      "url": "https://zenodo.org/records/1227121/files/PCAFETER_16k.zip?download=1",
+      "bytes": 107431494,
+      "checksum": "md5:99927d148128254141a9417d051510bb"
+    },
+    "STRAFFIC_16k.zip": {
+      "url": "https://zenodo.org/records/1227121/files/STRAFFIC_16k.zip?download=1",
+      "bytes": 118572691,
+      "checksum": "md5:2efa87262f272bbf9ba578088e81939c"
+    },
+    "TMETRO_16k.zip": {
+      "url": "https://zenodo.org/records/1227121/files/TMETRO_16k.zip?download=1",
+      "bytes": 126589090,
+      "checksum": "md5:95daf4df678e13b120e14211e6d89571"
+    },
+    "NRIVER_16k.zip": {
+      "url": "https://zenodo.org/records/1227121/files/NRIVER_16k.zip?download=1",
+      "bytes": 98689565,
+      "checksum": "md5:54264db61d3fe073fb81f2e40e0d19b5"
+    }
+  },
+  "official_split_clip_counts": {
+    "calibration": 84843,
+    "validation": 9981,
+    "test": 11005
+  },
+  "official_split_speaker_counts": {
+    "calibration": 2112,
+    "validation": 256,
+    "test": 250
+  },
+  "official_split_speaker_overlaps": {
+    "calibration_vs_validation": 0,
+    "calibration_vs_test": 0,
+    "test_vs_validation": 0
+  },
+  "speech_manifest_rows": 4400,
+  "speech_manifest_sha256": "089ba46f19b61083ddb21bffe9bb93330ea39a2c6c8a5cef6be99feb64209035",
+  "selected_unique_speech": {
+    "calibration": 2145,
+    "test": 2200
+  },
+  "selected_speakers": {
+    "calibration": 1074,
+    "test": 241
+  },
+  "test_clip_counts_by_label": {
+    "down": 200,
+    "go": 200,
+    "left": 200,
+    "no": 200,
+    "off": 200,
+    "on": 200,
+    "right": 200,
+    "stop": 200,
+    "up": 200,
+    "yes": 200,
+    "unknown": 200
+  },
+  "test_speaker_counts_by_label": {
+    "down": 165,
+    "go": 150,
+    "left": 168,
+    "no": 153,
+    "off": 166,
+    "on": 160,
+    "right": 165,
+    "stop": 156,
+    "up": 157,
+    "yes": 162,
+    "unknown": 194
+  },
+  "test_unknown_word_counts": {
+    "backward": 8,
+    "bed": 8,
+    "bird": 8,
+    "cat": 8,
+    "dog": 8,
+    "eight": 8,
+    "five": 8,
+    "follow": 8,
+    "forward": 8,
+    "four": 8,
+    "happy": 8,
+    "house": 8,
+    "learn": 8,
+    "marvin": 8,
+    "nine": 8,
+    "one": 8,
+    "seven": 8,
+    "sheila": 8,
+    "six": 8,
+    "three": 8,
+    "tree": 8,
+    "two": 8,
+    "visual": 8,
+    "wow": 8,
+    "zero": 8
+  },
+  "reserved_validation_noise_recordings": [
+    "DLIVING",
+    "NPARK"
+  ],
+  "noise_recordings": {
+    "calibration": {
+      "DKITCHEN": {
+        "source_channel": "ch01.wav",
+        "path": "noise/DKITCHEN.wav",
+        "samples": 4800064,
+        "sha256": "94eda18f9461348d1d070ca69d001e7fa9e51604731509026b4905d2e321561d"
+      },
+      "OOFFICE": {
+        "source_channel": "ch01.wav",
+        "path": "noise/OOFFICE.wav",
+        "samples": 4800064,
+        "sha256": "a831879b26e15732ed511a8d3bf72e23aa1689383aac6c5ba76bcaaa528bc2f2"
+      },
+      "TCAR": {
+        "source_channel": "ch01.wav",
+        "path": "noise/TCAR.wav",
+        "samples": 4800064,
+        "sha256": "ffe4cac12ed78705a52fce5d14f17a4ee838c6f5922446fc66258841323d4a59"
+      }
+    },
+    "test": {
+      "PCAFETER": {
+        "source_channel": "ch01.wav",
+        "path": "noise/PCAFETER.wav",
+        "samples": 4800064,
+        "sha256": "854dd0e5ef334a66abdd02d6d2b3e9d01b685df033d0acd1cd06e471c062550b"
+      },
+      "STRAFFIC": {
+        "source_channel": "ch01.wav",
+        "path": "noise/STRAFFIC.wav",
+        "samples": 4800064,
+        "sha256": "8fa49dcf3996af655a3ecef8d06f0d9ef217c35410e3adce3d461da797987dbb"
+      },
+      "TMETRO": {
+        "source_channel": "ch01.wav",
+        "path": "noise/TMETRO.wav",
+        "samples": 4800064,
+        "sha256": "63af2dc9ca2d83a83d2fb4e89db41948cb58b91fdafeda7137a651643df78fc4"
+      },
+      "NRIVER": {
+        "source_channel": "ch01.wav",
+        "path": "noise/NRIVER.wav",
+        "samples": 4800064,
+        "sha256": "5ebb169c264b60337b0d8366aee9ad93adab3689049f236108282a652f40bd6d"
+      }
+    }
+  }
+}
